@@ -31,7 +31,7 @@
 
                     <form class="form-inline">
                         <span>
-                            <h4>Repos <span class="badge">{{repoData.length}}</span>
+                            <h4>Repositorios <span class="badge">{{repoData.length}}</span>
                             <input ng-model="searchText" placeholder="Find a repo..." class="form-control input-sm">
                             </h4>
                         </span>
@@ -62,9 +62,9 @@
                                 </div>
                                 <div class="col-md-4">
                                     <dl class="dl-horizontal">
-                                      <dt>Last Updated:</dt>
+                                      <dt>Actualizado:</dt>
                                       <dd>{{repo.updated_at | date : short : timezone}}</dd>
-                                      <dt>Created:</dt>
+                                      <dt>Creado:</dt>
                                       <dd>{{repo.created_at| date : short : timezone}}</dd>
                                     </dl>
                                 </div>
