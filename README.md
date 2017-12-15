@@ -7,3 +7,4 @@ angular.github.api
 
 angular.github.api
 
+Josue Funes
