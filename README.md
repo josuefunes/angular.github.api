@@ -6,3 +6,5 @@ angular.github.api
 ====================
 
 angular.github.api
+
+by josuefunes
